@@ -1,6 +1,6 @@
 Image Integration with CTk and Gemini
 Description
-This project demonstrates video integration using CTk as the GUI framework and Gemini for video processing. The goal is to simulate a demo similar to the ChatGPT demo, showcasing image and video capabilities within a GUI environment.
+This project demonstrates video integration using CTk as the GUI framework and Gemini for multimodal testing with Text-to-Speech. The goal is to simulate a demo similar to the ChatGPT demo, showcasing video capabilities within a GUI environment.
 
 Installation
 To get started with this project, follow these steps:
@@ -8,21 +8,16 @@ To get started with this project, follow these steps:
 ```python
 git clone https://github.com/pour-le-hommes/Image-connection
 cd testing_gemini_multimodal
+pip install -r requirements.txt
 ```
 
-sh
-Copy code
+Lastly:
+add your GENAI_TEST_API_KEY to .env
 
-Install the required dependencies
-
-sh
-Copy code
-pip install -r requirements.txt
-Run the main application
-
-sh
-Copy code
+```python
 python main.py
+```
+
 Usage
 Once you have the application up and running, you can use it to integrate and manipulate videos within the GUI. This section can be expanded with more detailed usage instructions as the project evolves.
 
